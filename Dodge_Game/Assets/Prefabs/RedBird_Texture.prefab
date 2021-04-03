@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2031877349106559493}
   - component: {fileID: 2031877349106559494}
-  - component: {fileID: 2031877349106559492}
+  - component: {fileID: 8165557488012494494}
   - component: {fileID: 5286107734246403583}
   m_Layer: 0
   m_Name: RedBird_Texture
@@ -27,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2031877349106559495}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.291, y: 1.433, z: -1}
+  m_LocalPosition: {x: 0, y: 0, z: -1}
   m_LocalScale: {x: 3, y: 3, z: 3}
   m_Children: []
   m_Father: {fileID: 0}
@@ -47,6 +47,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -58,6 +59,7 @@ SpriteRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -70,7 +72,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 60c3931df1c403c44b39ce1fab26211d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5ab7db59ca5df7144a0859274c5fb4e1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -81,7 +83,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &2031877349106559492
+--- !u!114 &8165557488012494494
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -90,7 +92,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2031877349106559495}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0780ebcad3d6e3848b67d4251658713d, type: 3}
+  m_Script: {fileID: 11500000, guid: 54e9c9e0142684146af0bd2e1704f2f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!61 &5286107734246403583
